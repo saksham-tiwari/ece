@@ -1,0 +1,199 @@
+import React from 'react'
+import glimpses from './assets/glimpses.png'
+import akg from './assets/akg.png'
+import one from "./assets/1.png"
+import two from "./assets/2.png"
+import three from "./assets/3.png"
+import four from "./assets/4.png"
+import five from "./assets/5.png"
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import e1 from "./assets/e1.png"
+import e2 from "./assets/e2.png"
+import e3 from "./assets/e3.png"
+import e4 from "./assets/e4.png"
+
+const Homepage = () => {
+  return (
+    <>
+        <p className="top">
+            International Conference
+            on
+            Advances in Communication, Electronics & Computing -2023
+        </p>
+        <div className="imgmain">
+          <h1>
+              Advances in Communication,
+              Electronics & Computing 
+              (ICACEC-2023)
+          </h1>
+          <p>Organised by AKGEC Ghaziabad & Elsevier
+          <br></br>
+          <b>March 21-22, 2023</b></p>
+
+        </div>
+        <div className="gradient"></div>
+        <div className='about'>
+          <h1>About Conference</h1>
+          <p>
+          An online peer reviewed international conference on Advances in Communication, Electronics & Computing -2023 (ICACEC-2023) is scheduled to be held during (23-24 March’ 2023) at Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India.ICACEC-2023 seeks to provide an open communication platform to discuss and exchange futuristic trends and high-quality research in the field of Electronics & Communication Engineering among researchers, academicians, industrial professionals and students and also bring together people from all different geographical areas who share a common discipline or field.The primary goal of the conference is to promote research and development activities needed for the next generation and focused on all promising areas of Electronics & Communication Engineering. Several renowned experts from the Electronics & Communication Engineering will share their knowledge and experience with the participants. 
+          </p>
+        </div>
+        <div className='glimpse'>
+          <h1 className="heading">GLIMPSES OF PREVIOUS CONFERENCE</h1>
+          <img src={glimpses} alt="Glimpse"/>
+          
+          <div>
+          <img src={glimpses} alt="Glimpse"/>
+
+          </div>
+        </div>
+
+        <div className='aboutAkg'>
+          <div style={{marginTop:"10%"}}>
+            <h1>About AKGEC</h1>
+            <p>Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Dr. A.P.J.
+              Abdul Kalam Technical University, Lucknow, India and is approved by the All-India
+              Council for Technical Education. The college was established in 1998 and offers B. Tech
+              Courses in ten disciplines of Engineering. The College also offers M. Tech in Computer
+              Science & Engineering, Electronics  Communication Engineering, Electrical and
+              Electronics Engineering, Mechanical Engineering and Automation & Robotics. The college strives for excellence and has been consistently maintaining excellent academic results and placements.</p>
+            <button>Read More...</button>
+          </div>
+          <div>
+          <img src={akg} alt="AKGEC"/>
+          {/* <div className='akgborder'>
+            <img src={akg} alt="AKGEC"/>
+          </div> */}
+          </div>
+        </div>
+
+        <div className='skillCentre'>
+            <h1 className="heading">AKGEC SKILL CENTRE</h1>
+            <div className='imgflex'>
+              <img src={one} alt="one"/>
+              <img src={two} alt="two"/>
+              <img src={three} alt="three"/>
+              <img src={four} alt="four"/>
+              <img src={five} alt="five"/>
+
+              <p style={{width:'80%',lineHeight:'1.5', textAlign:"left"}}>
+              The efforts of the college to bridge the gap between academic curriculum and industry requirements through these centers of Excellence & Competence have been recognized and the college is the recipient of the CMAI Best Industry Interface award from the Hon'ble Minister of Science & Technology, Government of Uttar Pradesh, India. AKGEC in its endeavor to promote technical competency of engineering graduates, Diploma and ITI candidates and has established Skill Development Centre in collaboration with National Skill Development Corporation (NSDC), Ministry of Skill Development & Entrepreneurship, Govt. of India under AKGEC Skills Foundation. This initiative is supported by reputed <b>multinational industries of Europe like SIEMENS, Fronius, Messer and Carl Zeiss</b> as per the International didactic concepts. This center has world class State-of-the-art infrastructure and facilities to train young Engineers, Polytechnic and ITI candidates in the field of conventional and computer aided manufacturing, robot assisted manufacturing, robotic manufacturing, manual & robotic arc welding, non-destructive testing (NDT) and high-end reverse engineering processes.<br/><br/>
+
+              The college has established the <b>Software Development Centre ,Big Data Centre of Excellence and Open Source Software Research & Development lab.</b> These centers are run and managed entirely by the students to promote software development for the college as well as external clients, conduct training programs in various technologies and host competitions.<br/><br/>
+              In addition, AKGEC has established<b> IDEA Lab (Innovation, Development of Entrepreneurship and Application Lab)</b> in the year 2017. The basic objective of IDEA Lab is to be an establishing technical business incubator for entrepreneurship development and innovation, which enables establishing new enterprises, creating new job positions, as well as developing new IDEAs and technologies. The Business Incubator Centre has the tools, expertise, mentors and experience to help early age start-ups and ideas. IDEA Lab is developed to support every small or medium size business idea, innovation, entrepreneurship and start-ups in the college.<br/><br/>
+
+              </p>
+            </div>
+        </div>
+
+        <div className='callForPapers'>
+          <h1 className="heading">CALL FOR PAPERS</h1>
+          <p>The contributing papers are invited to the following broad categories of</p>
+          <div>
+            <span>Optical Networks & Systems</span>
+            <span>RF & Microwave Devices</span>
+            <span>Optical Communication</span>
+            <span>VLSI Design</span>
+            <span>IC design</span>
+            <span>Mobile Computing</span>
+            <span>Signal and Image Processing</span>
+            <span>Video Coding</span>
+            <span>Wireless and Satellite Communications</span>
+            <span>Cognitive Radio Networks</span>
+            <span>Wireless Sensor Networks</span>
+            <span>RFID Technology</span>
+            <span>Software Defined Radio</span>
+            <span>Next Generation Networks</span>
+            <span>Adhoc Networks</span>
+            <span>Multimedia Communication</span>
+            <span>OFDM & CDMA</span>
+            <span>Big Data</span>
+            <span>Intelligent Vehicular System</span>
+            <span>WiMAX, WLAN and WPAN</span>
+            <span>Artificial Intelligence</span>
+            <span>4G/5G Systems</span>
+            <span>IoT & Smart Systems</span>
+            <span>Cloud Computing</span>
+            <span>Machine learning & deep learning</span>
+          </div>
+        </div>
+
+        <div className='committee'>
+          <h1 className="heading">COMMITTEE</h1>
+          <div>
+            <div>
+              Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)<br></br>
+              Dr.  Sandipta Roy (Staff Engineer at Western Digital Bengaluru, Karnataka, India)<br></br>
+              Dr. Sangita Chakiroy (Scientist II- Institute of Microelectronics, Agency for Science Technology & Research A*Star, Singapore)<br></br>
+              Dr. N.S. Raghava (Prof. & HoD ECE, DTU, Delhi)<br></br>
+              Dr. Mirza Tariq Beg (Prof. ECE, Jamia Millia Islamia, New Delhi)<br></br>
+              Dr. Mainuddin, (Prof. ECE, Jamia Millia Islamia, New Delhi)<br></br>
+              Dr. Ajay Somkunwar (Professor ECE, MANIT, Bhopal)<br></br>
+              Dr.  Roopam Gupta (Professor, UIT RGPV, Bhopal)<br></br>
+              Dr. Sanjay Sharma (Professor & HoD, ECE, UIT RGPV, Bhopal)<br></br>
+              Dr. Jitendra Agarwal (UIT RGPV, Bhopal)<br></br>
+              Dr. Piyush Shukla (UIT RGPV, Bhopal)<br></br>
+            </div>
+            <div>
+              Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)<br></br>
+              Dr. A. K. Singh, HoD, EC, REC, Kannoj<br></br>
+              Dr Supratimmitra (Banasthali University)<br></br>
+              Dr. Garima Mathur (HoD, ECE, Poornima College of Engineering, Jaipur)<br></br>
+              Mr. Amit Tiwari, Senior Project Manager, BEL, Ghaziabad<br></br>
+              Dr. B. K. Gupta, Director, Barnett Pvt. Limited, Greater Noida<br></br>
+              Dr. R. L. Sharma, Prof. & BSF Communication Branch, Delhi<br></br>
+              Mr. Sanjay Giri , AGM, ALTTT Centre, Ghaziabad<br></br>
+              Mr. Nitin Garg, AGM, ALTTT Centre, Ghaziabad<br></br>
+              Mr. Sandeep,  ALTTT, AGM Centre, Ghaziabad<br></br>
+              Mr. Naresh ALTTT, AGM Centre, Ghaziabad<br></br>
+              Dr. Vineet Khandelwal, JIIT, Noida<br></br>
+              Dr. Asish Kumar Dhara, NIT Durgapur<br></br>
+              Dr. Sudip Nag, IIT Kharagpur)<br></br>
+              Dr.  Rikmantra  Basu, NIT Delhi<br></br>
+            </div>
+          </div>
+        </div>
+
+        <div className='keynote'>
+          <h1 className="heading">KEYNOTE SPEAKER</h1>
+          <div className='imgframe'>
+           <img src={e1} alt="Speaker1"/> 
+           <img src={e2} alt="Speaker2"/> 
+           <img src={e3} alt="Speaker3"/> 
+           <img src={e4} alt="Speaker4"/> 
+          </div>
+        </div>
+
+        <div className='paper'>
+          <h1 className="heading">PAPER SUBMISSION</h1>
+          <p>
+            The authors are invited to submit the research papers of a minimum of 4 pages in format (A maximum of 6 pages including Figures, Tables, and References will be in the registration fee and additional pages will be charged separately). The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings. <br/><br/>
+
+            The papers should be submitted in 1 column of Elsevier standard format in word .doc or .pdf format only. The authors are requested not to prefix their credentials, i.e. Dr., Prof., etc. in the author's name. All manuscripts should be prepared in the Elsevier conference template. The template can be downloaded from the below link. Authors are requested to use "US letter" as the Elsevier format.
+          </p>
+        </div>
+
+        <div className='contact'>
+          <h1 className="heading">CONTACT US</h1>
+          <div>
+            <LocationOnOutlinedIcon/>27th Km Stone, Delhi-Hapur Bypass Road,
+            P.O. Adhyatmik Nagar, Ghaziabad - 201009
+          </div>
+          <br/>
+
+          <div>
+            <LocalPhoneOutlinedIcon/>8744052891-93
+            7290034978
+          </div>
+          <br/>
+          <div>
+            <EmailOutlinedIcon/>info@akgec.ac.in
+          </div>
+        </div>
+    </>
+  )
+}
+
+export default Homepage

@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('./assets/Gilroy-Regular.ttf')  format('truetype');
+  font-weight: bolder;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:Gilroy, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +13,181 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Gilroy,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.top{
+  width: 30%;
+  margin-left: 10%;
+  font-weight: bold;
+  /* margin-top: 20px; */
+  padding: 20px 0px 0px 0px;
+  margin-bottom: 0;
+}
+
+.imgmain{
+  width: 98.7vw;
+  height: 100vh;
+  background-image: url("./assets/main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.imgmain h1{
+  width: 45%;
+  margin-left: 5%;
+  padding-top: 15%;
+  font-weight: 900;
+  font-size: 46px;
+}
+.imgmain>*{
+  margin-left: 5%;
+
+}
+
+.gradient{
+  background: linear-gradient(180deg, #ECEDEF 0%, #FFFFFF 100%);
+  width: 98.7vw;
+  height: 5vh;
+}
+
+.about{
+  width: 80%;
+  margin-left: 10%;
+  float: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.about p{
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+  color: #414141;
+}
+.glimpse, .skillCentre, .callForPapers, .committee, .keynote, .paper, .contact{
+  text-align: center;
+}
+.heading{
+  border-top: 2px solid rgba(65, 65, 65, 0.2);
+  box-shadow: 0px 0px 23px #F2F2F2;
+  padding: 20px;
+  font-size: 44px;
+}
+
+.glimpse img{
+  width: 70%;  
+  z-index: 200;
+  position:static;
+}
+.glimpse div{
+  border: 2px gray solid;
+  width: 70%;
+  position: absolute;
+  left: 16%;
+  margin-top: 1%;
+  display: inline;
+  z-index: -1;
+}
+.glimpse div img{
+  width: 100%;
+  opacity: 0;
+}
+
+.aboutAkg{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10% 15%;
+}
+
+.aboutAkg div{
+  width: 50%;
+}
+.aboutAkg img{
+  width: 100%;
+}
+/* 
+.akgborder{
+  border:1px black solid;
+  position:absolute;
+  display:inline;
+  opacity: 0.5;
+  width: 10%;
+}
+
+.akgborder img{
+  width: 70%;
+
+} */
+
+.imgflex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgflex img{
+  margin: 20px;
+}
+
+.callForPapers div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  /* justify-content: space-evenly; */
+  width: 80%;
+  margin-left: 10%;
+}
+
+.callForPapers span{
+  padding: 10px 4px;
+  border: 2px solid #E7E7E7;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.committee>div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.committee>div>div{
+  flex: 1;
+  text-align: left;
+  padding: 4%;
+  line-height: 1.75;
+  font-weight: bold;
+}
+
+.paper p{
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+  line-height: 1.75;
+}
+
+.contact{
+  font-weight: bold;
+
+}
+.contact div{
+  width: 40%;
+  margin-left: 30%;
+  font-size: larger;
+  text-align: left;
+}
+
+.imgframe{
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
 }
