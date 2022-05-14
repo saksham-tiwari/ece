@@ -31,7 +31,7 @@ const Homepage = () => {
           <p>Organised by AKGEC Ghaziabad & Elsevier
           <br></br>
           <b>March 21-22, 2023</b></p>
-          <button>Register <ArrowForwardIcon style={{position:"relative", top:"6px"}}/></button>
+          <button><L to="registration">Register <ArrowForwardIcon style={{position:"relative", top:"6px"}}/></L></button>
 
         </div>
         <div className="gradient"></div>
