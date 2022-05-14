@@ -13,16 +13,16 @@ import e1 from "./assets/e1.png"
 import e2 from "./assets/e2.png"
 import e3 from "./assets/e3.png"
 import e4 from "./assets/e4.png"
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Navbar from './Navbar'
+import Footer from './Footer'
+import { Link as L } from 'react-router-dom'
 
 const Homepage = () => {
   return (
     <>
-        <p className="top">
-            International Conference
-            on
-            Advances in Communication, Electronics & Computing -2023
-        </p>
-        <div className="imgmain">
+        <Navbar/>
+        <div className="imgmain" id="home">
           <h1>
               Advances in Communication,
               Electronics & Computing 
@@ -31,14 +31,16 @@ const Homepage = () => {
           <p>Organised by AKGEC Ghaziabad & Elsevier
           <br></br>
           <b>March 21-22, 2023</b></p>
+          <button>Register <ArrowForwardIcon style={{position:"relative", top:"6px"}}/></button>
 
         </div>
         <div className="gradient"></div>
-        <div className='about'>
+        <div className='about' id="about">
           <h1>About Conference</h1>
           <p>
           An online peer reviewed international conference on Advances in Communication, Electronics & Computing -2023 (ICACEC-2023) is scheduled to be held during (23-24 March’ 2023) at Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India.ICACEC-2023 seeks to provide an open communication platform to discuss and exchange futuristic trends and high-quality research in the field of Electronics & Communication Engineering among researchers, academicians, industrial professionals and students and also bring together people from all different geographical areas who share a common discipline or field.The primary goal of the conference is to promote research and development activities needed for the next generation and focused on all promising areas of Electronics & Communication Engineering. Several renowned experts from the Electronics & Communication Engineering will share their knowledge and experience with the participants. 
           </p>
+          <button className='readMore'>Read More...</button>
         </div>
         <div className='glimpse'>
           <h1 className="heading">GLIMPSES OF PREVIOUS CONFERENCE</h1>
@@ -50,8 +52,8 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='aboutAkg'>
-          <div style={{marginTop:"10%"}}>
+        <div className='aboutAkg' id="aboutAkg">
+          <div>
             <h1>About AKGEC</h1>
             <p>Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Dr. A.P.J.
               Abdul Kalam Technical University, Lucknow, India and is approved by the All-India
@@ -59,7 +61,7 @@ const Homepage = () => {
               Courses in ten disciplines of Engineering. The College also offers M. Tech in Computer
               Science & Engineering, Electronics  Communication Engineering, Electrical and
               Electronics Engineering, Mechanical Engineering and Automation & Robotics. The college strives for excellence and has been consistently maintaining excellent academic results and placements.</p>
-            <button>Read More...</button>
+            <button className='readMore'><L to="/about" style={{color:"#040404"}}>Read More...</L></button>
           </div>
           <div>
           <img src={akg} alt="AKGEC"/>
@@ -88,7 +90,7 @@ const Homepage = () => {
             </div>
         </div>
 
-        <div className='callForPapers'>
+        <div className='callForPapers' id='call'>
           <h1 className="heading">CALL FOR PAPERS</h1>
           <p>The contributing papers are invited to the following broad categories of</p>
           <div>
@@ -120,7 +122,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='committee'>
+        <div className='committee' id="committee">
           <h1 className="heading">COMMITTEE</h1>
           <div>
             <div>
@@ -156,17 +158,47 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='keynote'>
+        <div className='keynote' id="keynote">
           <h1 className="heading">KEYNOTE SPEAKER</h1>
           <div className='imgframe'>
-           <img src={e1} alt="Speaker1"/> 
-           <img src={e2} alt="Speaker2"/> 
-           <img src={e3} alt="Speaker3"/> 
-           <img src={e4} alt="Speaker4"/> 
+            <div>
+              <img src={e1} alt="Speaker1"/> 
+              <h2>Dr. Subimal Majee</h2>
+              <p>
+                (PhD from Ecole Polytechnique, France)
+                Research scientist  at RISE, Sweden 
+              </p>
+            </div>
+            <div>
+              <img src={e2} alt="Speaker2"/> 
+              <h2>Dr. Arijit Roy</h2>
+              <p>
+                (PhD from IIT Bombay)
+                Research Professor at Kookmin University, 
+                South Korea
+              </p>
+            </div>
+            <div>
+              <img src={e3} alt="Speaker3"/> 
+              <h2>Dr. Subimal Majee</h2>
+              <p>
+                (PhD from Ecole Polytechnique, France)
+                Research scientist  at RISE, Sweden 
+              </p>
+            </div>
+            <div>
+              <img src={e4} alt="Speaker4"/> 
+              <h2>Dr. Arijit Roy</h2>
+              <p>
+                (PhD from IIT Bombay)
+                Research Professor at Kookmin University, 
+                South Korea
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className='paper'>
+        <div className='paper' id="paper">
           <h1 className="heading">PAPER SUBMISSION</h1>
           <p>
             The authors are invited to submit the research papers of a minimum of 4 pages in format (A maximum of 6 pages including Figures, Tables, and References will be in the registration fee and additional pages will be charged separately). The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings. <br/><br/>
@@ -175,7 +207,7 @@ const Homepage = () => {
           </p>
         </div>
 
-        <div className='contact'>
+        <div className='contact' id="contact">
           <h1 className="heading">CONTACT US</h1>
           <div>
             <LocationOnOutlinedIcon/>27th Km Stone, Delhi-Hapur Bypass Road,
@@ -192,6 +224,9 @@ const Homepage = () => {
             <EmailOutlinedIcon/>info@akgec.ac.in
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <Footer/>
     </>
   )
 }

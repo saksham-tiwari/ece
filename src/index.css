@@ -16,18 +16,92 @@ code {
   font-family: Gilroy,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.active{
+  color: #65B0F6;
+  
+}
 .top{
-  width: 30%;
-  margin-left: 10%;
+  width: 100%;
+  /* padding-left: 15%; */
   font-weight: bold;
+  background-color: white;
   /* margin-top: 20px; */
-  padding: 20px 0px 0px 0px;
-  margin-bottom: 0;
+  /* padding: 10px 0px 10px 0px; */
+  /* margin-bottom: 0; */
+  position:fixed;
+  z-index: 1;
+
+}
+.top>p{
+  width: 360px;
+  margin-left: 15%;
+}
+.topfix{
+  height: 60px;
+  position:static;
+}
+.navbar{
+  background: #040404;
+  margin-bottom: -2.5%;
+  height: 40px;
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navfix{
+  height: 40px;
+  position: fixed;
+}
+.navbar>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 80%;
+  margin-left: 10%;
 }
 
+.dropbtn {
+  background-color: #040404;
+  color: white;
+  font-size: 16px;
+  /* margin-top: 8px; */
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 .imgmain{
-  width: 98.7vw;
+  width: 100%;
   height: 100vh;
   background-image: url("./assets/main.png");
   background-repeat: no-repeat;
@@ -35,11 +109,19 @@ code {
   background-size: cover;
   margin-top: 0;
 }
+.imgmain>button{
+  background-color: #040404;
+  padding: 4px 8px 10px 8px;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+}
 
 .imgmain h1{
   width: 45%;
   margin-left: 5%;
-  padding-top: 15%;
+  padding-top: 10%;
   font-weight: 900;
   font-size: 46px;
 }
@@ -50,7 +132,7 @@ code {
 
 .gradient{
   background: linear-gradient(180deg, #ECEDEF 0%, #FFFFFF 100%);
-  width: 98.7vw;
+  width: 100%;
   height: 5vh;
 }
 
@@ -60,6 +142,14 @@ code {
   float: center;
   margin-top: 10%;
   margin-bottom: 10%;
+}
+.aboutPage{
+  width: 80%;
+  margin-left: 10%;
+  line-height: 1.75;
+}
+.aboutPage img{
+  width: 100%;
 }
 .about p{
   line-height: 1.5;
@@ -96,16 +186,25 @@ code {
   opacity: 0;
 }
 
+.readMore{
+  background-color: white;
+  border: 1.5px black solid;
+  padding: 4px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .aboutAkg{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
   align-items: center;
   justify-content: space-evenly;
   margin: 10% 15%;
 }
 
 .aboutAkg div{
-  width: 50%;
+  width: 400px;
 }
 .aboutAkg img{
   width: 100%;
@@ -190,4 +289,91 @@ code {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgframe>div{
+  width: 300px;
+  margin-left: 5%;
+}
+.footer{
+  background-color: #040404;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 10px;
+}
+.footer h1{
+  font-size: 36px;
+}
+.footer .link{
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  color: white;
+}
+
+.footer hr{
+  width: 120%;
+  color: white;
+  margin-left: -15%;
+}
+
+.box-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.box{
+  border: 2px #414141 solid;
+  width: 270px;
+  height: 350px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.blackBox{
+  height: 50px;
+  background-color: #414141;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:460px){
+  .top>p{
+    margin-left: 2.5%;
+  }
+}
+
+@media only screen and (max-width:972px){
+  .navbar, .navfix{
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width:520px){
+  /* hamburger */
+}
+
+@media only screen and (max-width:690px){
+  .imgmain>h1{
+    font-size: 40px;
+  }
 }
