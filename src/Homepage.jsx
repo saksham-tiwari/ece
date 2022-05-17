@@ -210,18 +210,19 @@ const Homepage = () => {
         <div className='contact' id="contact">
           <h1 className="heading">CONTACT US</h1>
           <div>
-            <LocationOnOutlinedIcon/>27th Km Stone, Delhi-Hapur Bypass Road,
-            P.O. Adhyatmik Nagar, Ghaziabad - 201009
+          <div>
+            <section className="firstIcon"><LocationOnOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px"}}>27th Km Stone, Delhi-Hapur Bypass Road,
+            P.O. Adhyatmik Nagar, Ghaziabad - 201009</p>
           </div>
-          <br/>
 
           <div>
-            <LocalPhoneOutlinedIcon/>8744052891-93
-            7290034978
+            <LocalPhoneOutlinedIcon className="iconContact" fontSize="large"/><span>8744052891-93
+            7290034978</span>
           </div>
           <br/>
           <div>
-            <EmailOutlinedIcon/>info@akgec.ac.in
+            <EmailOutlinedIcon className="iconContact" fontSize="large"/><span>info@akgec.ac.in</span>
+          </div>
           </div>
         </div>
         <br></br>

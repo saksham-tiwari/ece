@@ -23,7 +23,7 @@ const Footer = () => {
 
           </div>
           <hr></hr>
-          <p>Designed & Developed by <img src={silogo} style={{position:"relative", top:"8px"}} alt="SI LOGO"/> SOFTWARE INCUBATOR</p>
+          <p>Designed & Developed by: <a href="https://silive.in/" target="_blank"><img src={silogo} style={{position:"relative", top:"8px"}} alt="SI LOGO"/> SOFTWARE INCUBATOR</a></p>
         </div>
     </>
   )
