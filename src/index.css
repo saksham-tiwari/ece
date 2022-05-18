@@ -398,6 +398,38 @@ a:hover{
   cursor: pointer;
 }
 
+.impDateFlex{
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content:space-evenly; 
+  align-items:center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.impDateFlex div{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 400px;
+}
+
+.impDateFlex h1{
+  font-size: 44px;
+}
+
+.blackDates{
+  background-color: #0E0E0E;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.blackDates h1{
+  font-size: 44px;
+}
 @media only screen and (max-width:460px){
   .top>p{
     margin-left: 2.5%;
