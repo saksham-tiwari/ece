@@ -72,11 +72,15 @@ code {
 .hamMenu{
   visibility: hidden;
   opacity: 0;
-  background-color: #04040459;
+  background-color: #040404;
   margin-top: -80px;
   padding: 10px;
   list-style: none;
   text-align: center;
+}
+
+.hamMenu li{
+  padding: 8px 0px;
 }
 
 .dropbtn {

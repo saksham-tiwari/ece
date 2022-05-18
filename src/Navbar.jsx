@@ -48,15 +48,15 @@ const Navbar = () => {
 
           <button className="hamburger" onClick={navShow}> <MenuIcon fontSize='large'/></button>
           <ul className='hamMenu'>
-              <li><Link activeClass="active" to="/#home" spy={true} smooth={true}>Home</Link></li>
-              <li><Link to="/#aboutAkg" spy={true} smooth={true}>About AKGEC</Link></li>
-              <li><Link to="/#call" spy={true} smooth={true}>Call for Papers</Link></li>
-              <li><Link to="/#committee" spy={true} smooth={true}>Committee</Link></li>
-              <li><Link to="/#keynote" spy={true} smooth={true}>Keynote Speakers</Link></li>
-              <li><Link to="/important-dates" spy={true} smooth={true}>Important Dates</Link></li>
-              <li><Link activeClass="active" to="/#paper" spy={true} smooth={true}>Paper Submission</Link></li>
-              <li><Link to="/#home" spy={true} smooth={true}>Best Paper Award</Link></li>
-              <li><Link to="/#contact" spy={true} smooth={true}>Contact Us</Link></li>
+              <li><Link activeClass="active" to="/#home" spy={true} smooth={true} onClick={()=>{navShow()}}>Home</Link></li>
+              <li><Link to="/#aboutAkg" spy={true} smooth={true} onClick={()=>{navShow()}}>About AKGEC</Link></li>
+              <li><Link to="/#call" spy={true} smooth={true} onClick={()=>{navShow()}}>Call for Papers</Link></li>
+              <li><Link to="/#committee" spy={true} smooth={true} onClick={()=>{navShow()}}>Committee</Link></li>
+              <li><Link to="/#keynote" spy={true} smooth={true} onClick={()=>{navShow()}}>Keynote Speakers</Link></li>
+              <li><Link to="/important-dates" spy={true} smooth={true} onClick={()=>{navShow()}}>Important Dates</Link></li>
+              <li><Link activeClass="active" to="/#paper" spy={true} smooth={true} onClick={()=>{navShow()}}>Paper Submission</Link></li>
+              <li><Link to="/#home" spy={true} smooth={true} onClick={()=>{navShow()}}>Best Paper Award</Link></li>
+              <li><Link to="/#contact" spy={true} smooth={true} onClick={()=>{navShow()}}>Contact Us</Link></li>
           </ul>
 
         </div>
