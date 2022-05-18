@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import {Link} from "react-scroll"
 import { HashLink as Link } from 'react-router-hash-link';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -6,14 +6,18 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 const Navbar = () => {
+  const [isOpen,setIsOpen] = useState(false)
   const navShow = ()=>{
     let hamMenu = document.querySelector(".hamMenu")
     if(hamMenu.style.visibility==="visible"){
       hamMenu.style.visibility="hidden";
       hamMenu.style.opacity=0;
+      setIsOpen(false)
     } else {
       hamMenu.style.visibility="visible";
       hamMenu.style.opacity=1;
+      setIsOpen(true)
+
     }
     
 
@@ -46,7 +50,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <button className="hamburger" onClick={navShow}> <MenuIcon fontSize='large'/></button>
+          <button className="hamburger" onClick={navShow}> {isOpen?<MenuOpenIcon fontSize="large"/>:<MenuIcon fontSize='large'/>}</button>
           <ul className='hamMenu'>
               <li><Link activeClass="active" to="/#home" spy={true} smooth={true} onClick={()=>{navShow()}}>Home</Link></li>
               <li><Link to="/#aboutAkg" spy={true} smooth={true} onClick={()=>{navShow()}}>About AKGEC</Link></li>
