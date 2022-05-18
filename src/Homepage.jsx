@@ -180,19 +180,18 @@ const Homepage = () => {
             </div>
             <div>
               <img src={e3} alt="Speaker3"/> 
-              <h2>Dr. Subimal Majee</h2>
+              <h2>Dr. Mrinal Kanti Biswas</h2>
               <p>
-                (PhD from Ecole Polytechnique, France)
-                Research scientist  at RISE, Sweden 
+                (PhD from IIT Kharagpur)
+                Associate Professor, IIT Kharagpur
               </p>
             </div>
             <div>
               <img src={e4} alt="Speaker4"/> 
-              <h2>Dr. Arijit Roy</h2>
+              <h2>Dr. Lalat Indu Giri</h2>
               <p>
-                (PhD from IIT Bombay)
-                Research Professor at Kookmin University, 
-                South Korea
+                (PhD from IIT Kanpur)
+                Assistant Professor, NIT Goa
               </p>
             </div>
           </div>
@@ -216,12 +215,12 @@ const Homepage = () => {
           </div>
 
           <div>
-            <LocalPhoneOutlinedIcon className="iconContact" fontSize="large"/><span>8744052891-93
-            7290034978</span>
+            <section className="firstIcon"><LocalPhoneOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px"}}>8744052891-93
+            7290034978</p>
           </div>
           <br/>
           <div>
-            <EmailOutlinedIcon className="iconContact" fontSize="large"/><span>info@akgec.ac.in</span>
+            <section><EmailOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px",top:"-40px"}}>info@akgec.ac.in</p>
           </div>
           </div>
         </div>

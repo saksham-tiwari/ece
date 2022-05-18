@@ -8,7 +8,7 @@ const About = () => {
     <>
         <Navbar/>
         <div className='aboutPage'>
-            <img src={about} alt="AKGEC"/>
+            <img src={about} alt="AKGEC" style={{marginTop:"20%"}}/>
             <h1>About AKGEC</h1>
             <p>
                 Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Dr. A.P.J.

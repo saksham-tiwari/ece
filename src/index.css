@@ -61,6 +61,24 @@ code {
   margin-left: 10%;
 }
 
+.hamburger{
+  visibility: hidden;
+  background: transparent;
+  border: none;
+  color: white;
+  /* position: relative; */
+  float: right;
+}
+.hamMenu{
+  visibility: hidden;
+  opacity: 0;
+  background-color: #04040459;
+  margin-top: -80px;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+}
+
 .dropbtn {
   background-color: #040404;
   color: white;
@@ -363,6 +381,7 @@ a:hover{
   width: 270px;
   height: 350px;
   margin-left: 25px;
+  margin-right: 25px;
   margin-top: 10px;
 }
 
@@ -391,8 +410,11 @@ a:hover{
   }
 }
 
-@media only screen and (max-width:520px){
-  /* hamburger */
+@media only screen and (max-width:700px){
+  .contact div>div{
+    width: 70%;
+    margin-left: 15%;
+  }
 }
 
 @media only screen and (max-width:690px){
@@ -400,3 +422,65 @@ a:hover{
     font-size: 40px;
   }
 }
+
+@media only screen and (max-width:520px){
+  .hamburger{
+    visibility: visible;
+    margin-top: -108px;
+  }
+  .webLinks{
+    visibility:hidden;
+  }
+  .navbar, .navfix{
+    height: 40px;
+  }
+  .imgmain{
+    background-size: cover;
+    background-position: 65% 0%;
+  }
+  .imgmain p{
+    background-color: #04040435;
+    color: white;
+  }
+}
+
+@media only screen and (max-width:490px){
+  .imgmain h1{
+    font-size: 36px;
+  }
+  .hamburger{
+    margin-top: -118px;
+  }
+}
+@media only screen and (max-width:430px){
+  .contact div>div{
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width:386px){
+  .hamburger{
+    margin-top: -145px;
+  }
+  .top p,.topfix{
+    width: 300px;
+    height:80px;
+  }
+  .hamMenu{
+    margin-top: -110px;
+  }
+  .imgmain h1{
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width:359.9px){
+  .hamburger{
+    margin-top: -155px;
+  }
+  .hamMenu{
+    margin-top: -120px;
+  }
+}
+
+

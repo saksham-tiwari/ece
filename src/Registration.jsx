@@ -6,6 +6,8 @@ const Registration = () => {
   return (
     <>
         <Navbar/>
+        <br></br>
+        <br></br>
         <h1 className='heading' style={{textAlign:"center"}}>REGISTRATION</h1>
         <br/>
         <br/>
