@@ -6,7 +6,7 @@ import silogo from "./assets/silogo.png"
 const Footer = () => {
   return (
     <>
-        <div className='footer'>
+        <div className='footer1'>
           <img src={akglogo} alt="AKGLOGO"/>
           <h1>Ajay Kumar Garg Engineering college, Ghaziabad</h1>
           <div className="link">
