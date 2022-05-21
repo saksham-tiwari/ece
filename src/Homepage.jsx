@@ -17,6 +17,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { Link as L } from 'react-router-dom'
+import { Table } from 'react-bootstrap'
 
 const Homepage = () => {
   return (
@@ -80,7 +81,7 @@ const Homepage = () => {
               <img src={four} alt="four"/>
               <img src={five} alt="five"/>
 
-              <p style={{width:'80%',lineHeight:'1.5', textAlign:"left"}}>
+              <p style={{width:'80%',lineHeight:'1.5', textAlign:"justify"}}>
               The efforts of the college to bridge the gap between academic curriculum and industry requirements through these centers of Excellence & Competence have been recognized and the college is the recipient of the CMAI Best Industry Interface award from the Hon'ble Minister of Science & Technology, Government of Uttar Pradesh, India. AKGEC in its endeavor to promote technical competency of engineering graduates, Diploma and ITI candidates and has established Skill Development Centre in collaboration with National Skill Development Corporation (NSDC), Ministry of Skill Development & Entrepreneurship, Govt. of India under AKGEC Skills Foundation. This initiative is supported by reputed <b>multinational industries of Europe like SIEMENS, Fronius, Messer and Carl Zeiss</b> as per the International didactic concepts. This center has world class State-of-the-art infrastructure and facilities to train young Engineers, Polytechnic and ITI candidates in the field of conventional and computer aided manufacturing, robot assisted manufacturing, robotic manufacturing, manual & robotic arc welding, non-destructive testing (NDT) and high-end reverse engineering processes.<br/><br/>
 
               The college has established the <b>Software Development Centre ,Big Data Centre of Excellence and Open Source Software Research & Development lab.</b> These centers are run and managed entirely by the students to promote software development for the college as well as external clients, conduct training programs in various technologies and host competitions.<br/><br/>
@@ -90,10 +91,10 @@ const Homepage = () => {
             </div>
         </div>
 
-        <div className='callForPapers' id='call'>
+        <div className='callForPapers' id='call' style={{paddingTop:"100px"}}>
           <h1 className="heading">CALL FOR PAPERS</h1>
-          <p>The contributing papers are invited to the following broad categories of</p>
-          <div>
+          <p style={{width:'80%',lineHeight:'1.5', textAlign:"justify", marginLeft:"10%"}}>The contributing papers are invited to the following broad categories of</p>
+          <div style={{textAlign:"left"}}>
             <span>Optical Networks & Systems</span>
             <span>RF & Microwave Devices</span>
             <span>Optical Communication</span>
@@ -122,43 +123,118 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='committee' id="committee">
+        <div className='committee' id="committee" style={{paddingTop:"100px"}}>
           <h1 className="heading">COMMITTEE</h1>
-          <div>
-            <div>
-              Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)<br></br>
-              Dr.  Sandipta Roy (Staff Engineer at Western Digital Bengaluru, Karnataka, India)<br></br>
-              Dr. Sangita Chakiroy (Scientist II- Institute of Microelectronics, Agency for Science Technology & Research A*Star, Singapore)<br></br>
-              Dr. N.S. Raghava (Prof. & HoD ECE, DTU, Delhi)<br></br>
-              Dr. Mirza Tariq Beg (Prof. ECE, Jamia Millia Islamia, New Delhi)<br></br>
-              Dr. Mainuddin, (Prof. ECE, Jamia Millia Islamia, New Delhi)<br></br>
-              Dr. Ajay Somkunwar (Professor ECE, MANIT, Bhopal)<br></br>
-              Dr.  Roopam Gupta (Professor, UIT RGPV, Bhopal)<br></br>
-              Dr. Sanjay Sharma (Professor & HoD, ECE, UIT RGPV, Bhopal)<br></br>
-              Dr. Jitendra Agarwal (UIT RGPV, Bhopal)<br></br>
-              Dr. Piyush Shukla (UIT RGPV, Bhopal)<br></br>
-            </div>
-            <div>
-              Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)<br></br>
-              Dr. A. K. Singh, HoD, EC, REC, Kannoj<br></br>
-              Dr Supratimmitra (Banasthali University)<br></br>
-              Dr. Garima Mathur (HoD, ECE, Poornima College of Engineering, Jaipur)<br></br>
-              Mr. Amit Tiwari, Senior Project Manager, BEL, Ghaziabad<br></br>
-              Dr. B. K. Gupta, Director, Barnett Pvt. Limited, Greater Noida<br></br>
-              Dr. R. L. Sharma, Prof. & BSF Communication Branch, Delhi<br></br>
-              Mr. Sanjay Giri , AGM, ALTTT Centre, Ghaziabad<br></br>
-              Mr. Nitin Garg, AGM, ALTTT Centre, Ghaziabad<br></br>
-              Mr. Sandeep,  ALTTT, AGM Centre, Ghaziabad<br></br>
-              Mr. Naresh ALTTT, AGM Centre, Ghaziabad<br></br>
-              Dr. Vineet Khandelwal, JIIT, Noida<br></br>
-              Dr. Asish Kumar Dhara, NIT Durgapur<br></br>
-              Dr. Sudip Nag, IIT Kharagpur)<br></br>
-              Dr.  Rikmantra  Basu, NIT Delhi<br></br>
-            </div>
-          </div>
-        </div>
+          {/* <div> */}
+          <Table responsive striped size='md' bordered>
+          <tbody>
+            <tr>
+              <td> Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)</td>
+              <td> Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)</td>
+            </tr>
+            <tr>
+              <td>
+              Dr.  Sandipta Roy (Staff Engineer at Western Digital Bengaluru, Karnataka, India)
+              </td>
+              <td>
+              Dr. A. K. Singh, HoD, EC, REC, Kannoj
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Sangita Chakiroy (Scientist II- Institute of Microelectronics, Agency for Science Technology & Research A*Star, Singapore)
+              </td>
+              <td>
+              Dr Supratimmitra (Banasthali University)
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. N.S. Raghava (Prof. & HoD ECE, DTU, Delhi)
+              </td>
+              <td>
+              Dr. Garima Mathur (HoD, ECE, Poornima College of Engineering, Jaipur)
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Mirza Tariq Beg (Prof. ECE, Jamia Millia Islamia, New Delhi)
+              </td>
+              <td>
+              Mr. Amit Tiwari, Senior Project Manager, BEL, Ghaziabad
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Mainuddin, (Prof. ECE, Jamia Millia Islamia, New Delhi)
+              </td>
+              <td>
+              Dr. B. K. Gupta, Director, Barnett Pvt. Limited, Greater Noida
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Ajay Somkunwar (Professor ECE, MANIT, Bhopal)
+              </td>
+              <td>
+              Dr. R. L. Sharma, Prof. & BSF Communication Branch, Delhi
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr.  Roopam Gupta (Professor, UIT RGPV, Bhopal)
+              </td>
+              <td>
+              Mr. Sanjay Giri , AGM, ALTTT Centre, Ghaziabad
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Sanjay Sharma (Professor & HoD, ECE, UIT RGPV, Bhopal)
+              </td>
+              <td>
+              Mr. Nitin Garg, AGM, ALTTT Centre, Ghaziabad
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Jitendra Agarwal (UIT RGPV, Bhopal)
+              </td>
+              <td>
+              Mr. Sandeep,  ALTTT, AGM Centre, Ghaziabad
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Piyush Shukla (UIT RGPV, Bhopal)
+              </td>
+              <td>
+              Mr. Naresh ALTTT, AGM Centre, Ghaziabad
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Vineet Khandelwal, JIIT, Noida
+              </td>
+              <td>
+              Dr. Asish Kumar Dhara, NIT Durgapu
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Dr. Sudip Nag, IIT Kharagpur
+              </td>
+              <td>
+              Dr.  Rikmantra  Basu, NIT Delhi
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
-        <div className='keynote' id="keynote">
+          {/* </div> */}
+        </div>
+        
+        <div className='keynote' id="keynote" style={{paddingTop:"100px"}}>
           <h1 className="heading">KEYNOTE SPEAKER</h1>
           <div className='imgframe'>
             <div>
@@ -197,7 +273,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='paper' id="paper">
+        <div className='paper' id="paper" style={{paddingTop:"100px"}}>
           <h1 className="heading">PAPER SUBMISSION</h1>
           <p>
             The authors are invited to submit the research papers of a minimum of 4 pages in format (A maximum of 6 pages including Figures, Tables, and References will be in the registration fee and additional pages will be charged separately). The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings. <br/><br/>
@@ -206,7 +282,7 @@ const Homepage = () => {
           </p>
         </div>
 
-        <div className='contact' id="contact">
+        <div className='contact' id="contact" style={{paddingTop:"100px"}}>
           <h1 className="heading">CONTACT US</h1>
           <div>
           <div>

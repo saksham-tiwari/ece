@@ -8,14 +8,14 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 const Navbar = () => {
   const [isOpen,setIsOpen] = useState(false)
   const navShow = ()=>{
-    let hamMenu = document.querySelector(".hamMenu")
-    if(hamMenu.style.visibility==="visible"){
-      hamMenu.style.visibility="hidden";
-      hamMenu.style.opacity=0;
+    let hamMenu1 = document.querySelector(".hamMenu1")
+    if(hamMenu1.style.visibility==="visible"){
+      hamMenu1.style.visibility="hidden";
+      hamMenu1.style.opacity=0;
       setIsOpen(false)
     } else {
-      hamMenu.style.visibility="visible";
-      hamMenu.style.opacity=1;
+      hamMenu1.style.visibility="visible";
+      hamMenu1.style.opacity=1;
       setIsOpen(true)
 
     }
@@ -31,7 +31,7 @@ const Navbar = () => {
             </p>
         </div>
         <div className='topfix'>.</div>
-        <div className='navbar'>
+        <div className='navbar1'>
           <div className='webLinks'>
             <Link activeClass="active" to="/#home" spy={true} smooth={true}>Home</Link>
             <Link to="/#aboutAkg" spy={true} smooth={true}>About AKGEC</Link>
@@ -40,9 +40,9 @@ const Navbar = () => {
             <Link to="/#keynote" spy={true} smooth={true}>Keynote Speakers</Link>
             <Link to="/important-dates" spy={true} smooth={true}>Important Dates</Link>
 
-            <div className="dropdown">
-              <button className="dropbtn">More <KeyboardArrowDownIcon style={{position:"relative", top:"6px"}}/> </button>
-              <div className="dropdown-content">
+            <div className="dropdown1">
+              <button className="dropbtn" style={{paddingTop:"9px"}}>More <KeyboardArrowDownIcon/> </button>
+              <div className="dropdown1-content">
               <Link activeClass="active" to="/#paper" spy={true} smooth={true}>Paper Submission</Link>
               <Link to="/#home" spy={true} smooth={true}>Best Paper Award</Link>
               <Link to="/#contact" spy={true} smooth={true}>Contact Us</Link>
@@ -50,8 +50,8 @@ const Navbar = () => {
             </div>
           </div>
 
-          <button className="hamburger" onClick={navShow}> {isOpen?<MenuOpenIcon fontSize="large"/>:<MenuIcon fontSize='large'/>}</button>
-          <ul className='hamMenu'>
+          <button className="hamburger1" onClick={navShow}> {isOpen?<MenuOpenIcon fontSize="large"/>:<MenuIcon fontSize='large'/>}</button>
+          <ul className='hamMenu1'>
               <li><Link activeClass="active" to="/#home" spy={true} smooth={true} onClick={()=>{navShow()}}>Home</Link></li>
               <li><Link to="/#aboutAkg" spy={true} smooth={true} onClick={()=>{navShow()}}>About AKGEC</Link></li>
               <li><Link to="/#call" spy={true} smooth={true} onClick={()=>{navShow()}}>Call for Papers</Link></li>
