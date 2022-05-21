@@ -327,8 +327,8 @@ code {
   top: 10px;
 }
 .imgframe{
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   display: flex;
   align-content: center;
   justify-content: space-evenly;
@@ -445,11 +445,30 @@ td{
   width: 50%;
 }
 
+@media only screen and (max-width:1874px){
+  .imgframe>div {
+    width: 250px;
+  }
+}
+@media only screen and (max-width:1563px){
+  .imgframe>div{
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width:1324px){
+  .imgframe>div {
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width:972px){
   .navbar1, .navfix{
     height: 80px;
   }
 }
+
+
 
 
 @media only screen and (max-width:700px){
@@ -502,6 +521,9 @@ td{
   .footer1>h1{
     font-size: 24px;
   }
+  .imgframe img{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width:520px){
@@ -546,13 +568,29 @@ td{
     font-size: 32px;
   }
 }
+
+/* @media only screen and (max-width:365px){
+  .hamburger1{
+    margin-top: 0px;
+  }
+} */
+
+@media only screen and (max-width:363px){
+  
+  .hamburger1{
+    margin-top: -175px;
+  }
+  .softInc{
+    font-size: 10px;
+  }
+}
+
+
 @media only screen and (max-width:359.9px){
   .hamburger1{
     margin-top: -175px;
   }
-  .hamMenu1{
-    margin-top: -140px;
-  }
 }
+
 
 
