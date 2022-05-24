@@ -33,7 +33,7 @@ const ImpDates = () => {
         </div>
       </div>
       <div className='blackDates'>
-      <p>Conference date</p>
+      <p style={{textAlign:"center"}}>Conference date</p>
       <h1>March 21-22, 2023</h1>
       </div>
 

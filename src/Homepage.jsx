@@ -81,7 +81,7 @@ const Homepage = () => {
               <img src={four} alt="four"/>
               <img src={five} alt="five"/>
 
-              <p style={{width:'80%',lineHeight:'1.5', textAlign:"justify"}}>
+              <p style={{width:'90%',lineHeight:'1.5', textAlign:"justify"}}>
               The efforts of the college to bridge the gap between academic curriculum and industry requirements through these centers of Excellence & Competence have been recognized and the college is the recipient of the CMAI Best Industry Interface award from the Hon'ble Minister of Science & Technology, Government of Uttar Pradesh, India. AKGEC in its endeavor to promote technical competency of engineering graduates, Diploma and ITI candidates and has established Skill Development Centre in collaboration with National Skill Development Corporation (NSDC), Ministry of Skill Development & Entrepreneurship, Govt. of India under AKGEC Skills Foundation. This initiative is supported by reputed <b>multinational industries of Europe like SIEMENS, Fronius, Messer and Carl Zeiss</b> as per the International didactic concepts. This center has world class State-of-the-art infrastructure and facilities to train young Engineers, Polytechnic and ITI candidates in the field of conventional and computer aided manufacturing, robot assisted manufacturing, robotic manufacturing, manual & robotic arc welding, non-destructive testing (NDT) and high-end reverse engineering processes.<br/><br/>
 
               The college has established the <b>Software Development Centre ,Big Data Centre of Excellence and Open Source Software Research & Development lab.</b> These centers are run and managed entirely by the students to promote software development for the college as well as external clients, conduct training programs in various technologies and host competitions.<br/><br/>
@@ -93,7 +93,7 @@ const Homepage = () => {
 
         <div className='callForPapers' id='call' style={{paddingTop:"100px"}}>
           <h1 className="heading">CALL FOR PAPERS</h1>
-          <p style={{width:'80%',lineHeight:'1.5', textAlign:"justify", marginLeft:"10%"}}>The contributing papers are invited to the following broad categories of</p>
+          <p style={{width:'90%',lineHeight:'1.5', textAlign:"justify", marginLeft:"5%"}}>The contributing papers are invited to the following broad categories of</p>
           <div style={{textAlign:"left"}}>
             <span>Optical Networks & Systems</span>
             <span>RF & Microwave Devices</span>
@@ -286,17 +286,17 @@ const Homepage = () => {
           <h1 className="heading">CONTACT US</h1>
           <div>
           <div>
-            <section className="firstIcon"><LocationOnOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px"}}>27th Km Stone, Delhi-Hapur Bypass Road,
+            <section className="firstIcon"><LocationOnOutlinedIcon className="iconContact" /></section><p style={{position:"relative",left:"30px",top:"-14px"}}>27th Km Stone, Delhi-Hapur Bypass Road,
             P.O. Adhyatmik Nagar, Ghaziabad - 201009</p>
           </div>
 
           <div>
-            <section className="firstIcon"><LocalPhoneOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px"}}>8744052891-93
+            <section className="firstIcon"><LocalPhoneOutlinedIcon className="iconContact" /></section><p style={{position:"relative",left:"30px",top:"-14px"}}>8744052891-93
             7290034978</p>
           </div>
-          <br/>
+          {/* <br/> */}
           <div>
-            <section><EmailOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px",top:"-40px"}}>info@akgec.ac.in</p>
+            <section><EmailOutlinedIcon className="iconContact" /></section><p style={{position:"relative",left:"30px",top:"-14px"}}>info@akgec.ac.in</p>
           </div>
           </div>
         </div>

@@ -159,15 +159,15 @@ code {
 }
 
 .about{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   float: center;
   margin-top: 10%;
   margin-bottom: 10%;
 }
 .aboutPage{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   line-height: 1.75;
 }
 .aboutPage img{
@@ -262,8 +262,8 @@ code {
   flex-wrap: wrap;
   align-items: left;
   /* justify-content: space-evenly; */
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .callForPapers span{
@@ -277,8 +277,9 @@ code {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  padding-top: 20px;
+  margin-left: 5%;
 }
 
 .committee>div>div{
@@ -290,26 +291,37 @@ code {
 }
 
 .paper p{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   text-align: left;
   line-height: 1.75;
 }
 
-.contact{
-  font-weight: bold;
-  /* margin-top: -50px; */
-
-}
 .contact div>div{
   width: 40%;
   margin-left: 30%;
-  font-size: larger;
+  /* font-size: larger; */
   text-align: left;
 }
+
+.iconContact{
+  position: relative;
+  left: -10px;
+  /* top: -10px; */
+}
+.contact>div{
+  width: 90%;
+  margin-left: 5%;
+}
+/* .contact{
+  font-weight: bold;
+  margin-top: -50px;
+
+}
+
 .contact div>span,.contact div>p{
   margin-left: 40px;
-  /* display: inline; */
+  display: inline;
 }
 
 .firstIcon{
@@ -320,15 +332,15 @@ code {
 .contact>div{
   margin-top: -30px;
 
-}
+} */
 
 .iconContact{
   position: relative;
   top: 10px;
 }
 .imgframe{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   display: flex;
   align-content: center;
   justify-content: space-evenly;
@@ -338,6 +350,9 @@ code {
 .imgframe>div{
   width: 300px;
   margin-left: 5%;
+}
+.imgframe img{
+  width: 80%;
 }
 .footer1{
   background-color: #040404;
@@ -389,10 +404,19 @@ a:hover{
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 10px;
+  text-align: center;
+
+}
+
+.box>p{
+  text-align: center;
+  padding-top: 10px;
+
+
 }
 
 .blackBox{
-  height: 50px;
+  height: 100px;
   background-color: #414141;
   text-align: center;
   color: white;
@@ -411,11 +435,11 @@ a:hover{
   align-items:center;
   text-align: center;
   font-size: 20px;
+
 }
 
 .impDateFlex div{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
   width: 400px;
 }
 
@@ -425,8 +449,8 @@ a:hover{
 
 .blackDates{
   background-color: #0E0E0E;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   font-size: 20px;
   text-align: center;
   color: white;
@@ -468,6 +492,11 @@ td{
   }
 }
 
+@media only screen and (max-width:850px){
+  .imgmain>h1{
+    padding-top: 20%;
+  }
+}
 
 
 
