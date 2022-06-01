@@ -17,15 +17,15 @@ const ImpDates = () => {
       <div className='impDateFlex' style={{}}>
         <div>
         Last date of abstract submission
-        <h1>June 15, 2022</h1>
+        <h1>November 01, 2022</h1>
         </div>
         <div>
         Last date of full paper submission
-        <h1>June 15, 2022</h1>
+        <h1>December 01, 2022</h1>
         </div>
         <div>
         Notification of acceptance
-        <h1>August 15, 2022</h1>
+        <h1>December 15, 2022</h1>
         </div>
         <div>
         Registration and final paper submission of accepted Paper

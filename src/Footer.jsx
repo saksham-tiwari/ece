@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="home" smooth={true}>Home</Link>
             <Link to="aboutAkg" smooth={true}>About Akgec</Link>
             <Link to="call" smooth={true}>Call for Papers</Link>
-            <Link to="committee" smooth={true}>Committee</Link>
+            <Link to="committee" smooth={true}>Program Committee</Link>
             <Link to="keynote" smooth={true}>Keynote Speakers</Link>
             <Link to="paper" smooth={true}>Paper Submission</Link>
             <Link to="" smooth={true}>Important Dates</Link>
