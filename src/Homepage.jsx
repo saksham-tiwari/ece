@@ -282,7 +282,7 @@ const Homepage = () => {
           <h1 className="heading">CONTACT US</h1>
           <div>
           <div>
-            <section className="firstIcon"><LocationOnOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px,top:"-14px""}}>27th Km Milestone, Delhi-Meerut Expy, 
+            <section className="firstIcon"><LocationOnOutlinedIcon className="iconContact" fontSize="large"/></section><p style={{position:"relative",left:"30px",top:"-14px"}}>27th Km Milestone, Delhi-Meerut Expy, 
             Ghaziabad - 201009</p>
           </div>
 
