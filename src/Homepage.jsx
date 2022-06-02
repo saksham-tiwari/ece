@@ -241,7 +241,6 @@ const Homepage = () => {
               <img src={e1} alt="Speaker1"/> 
               <h2>Dr. Subimal Majee</h2>
               <p>
-                (PhD from Ecole Polytechnique, France)
                 Research scientist  at RISE, Sweden 
               </p>
             </div>
@@ -249,7 +248,6 @@ const Homepage = () => {
               <img src={e2} alt="Speaker2"/> 
               <h2>Dr. Arijit Roy</h2>
               <p>
-                (PhD from IIT Bombay)
                 Research Professor at Kookmin University, 
                 South Korea
               </p>
@@ -258,7 +256,6 @@ const Homepage = () => {
               <img src={e3} alt="Speaker3"/> 
               <h2>Dr. Mrinal Kanti Biswas</h2>
               <p>
-                (PhD from IIT Kharagpur)
                 Associate Professor, IIT Kharagpur
               </p>
             </div>
@@ -266,7 +263,6 @@ const Homepage = () => {
               <img src={e4} alt="Speaker4"/> 
               <h2>Dr. Lalat Indu Giri</h2>
               <p>
-                (PhD from IIT Kanpur)
                 Assistant Professor, NIT Goa
               </p>
             </div>
