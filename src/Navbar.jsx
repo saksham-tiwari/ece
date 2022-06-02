@@ -44,7 +44,7 @@ const Navbar = () => {
               <button className="dropbtn" style={{paddingTop:"9px"}}>More <KeyboardArrowDownIcon/> </button>
               <div className="dropdown1-content">
               <Link activeClass="active" to="/#paper" spy={true} smooth={true}>Paper Submission</Link>
-              <Link to="/#committee" spy={true} smooth={true}>Programme Committee</Link>
+              <Link to="/programme-committee" spy={true} smooth={true}>Programme Committee</Link>
 
               <Link to="/#home" spy={true} smooth={true}>Best Paper Award</Link>
               <Link to="/#contact" spy={true} smooth={true}>Contact Us</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <li><Link to="/#aboutAkg" spy={true} smooth={true} onClick={()=>{navShow()}}>About AKGEC</Link></li>
               <li><Link to="/#call" spy={true} smooth={true} onClick={()=>{navShow()}}>Call for Papers</Link></li>
               <li><Link to="/#committee" spy={true} smooth={true} onClick={()=>{navShow()}}>Technical Committee</Link></li>
-              <li><Link to="/ece-committee" spy={true} smooth={true} onClick={()=>{navShow()}}>Programme Committee</Link></li>
+              <li><Link to="/programme-committee" spy={true} smooth={true} onClick={()=>{navShow()}}>Programme Committee</Link></li>
               <li><Link to="/#keynote" spy={true} smooth={true} onClick={()=>{navShow()}}>Keynote Speakers</Link></li>
               <li><Link to="/important-dates" spy={true} smooth={true} onClick={()=>{navShow()}}>Important Dates</Link></li>
               <li><Link activeClass="active" to="/#paper" spy={true} smooth={true} onClick={()=>{navShow()}}>Paper Submission</Link></li>

@@ -13,7 +13,7 @@ function App() {
       <Route exact path="/about" element={<About/>}/>
       <Route exact path="/registration" element={<Registration/>}/>
       <Route exact path="/important-dates" element={<ImpDates/>}/>
-      <Route exact path="/ece-committee" element={<Committee/>}/>
+      <Route exact path="/programme-committee" element={<Committee/>}/>
     </Routes>
   );
 }

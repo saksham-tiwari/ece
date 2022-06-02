@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import { Table } from 'react-bootstrap'
 
 
 const Committee = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
   return (
     <>
         <Navbar/>
         <br></br>
         <br></br>
-        <h1 className='heading' style={{textAlign:"center"}}>COMMITTEE(s) for ECE DEPARTMENT </h1>
+        <h1 className='heading' style={{textAlign:"center"}}>PROGRAMME COMMITTEE</h1>
         <br/>
         <div style={{width:"95%", marginLeft:"2.5%"}}>
             <h3 className='committee-head'>CHEIF PATRONS</h3>
