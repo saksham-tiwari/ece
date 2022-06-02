@@ -37,7 +37,7 @@ const Homepage = () => {
         </div>
         <div className="gradient"></div>
         <div className='about' id="about">
-          <h1>About Conference</h1>
+          <h1>ABOUT CONFERENCE</h1>
           <p>
           An online peer reviewed international conference on Advances in Communication, Electronics & Computing -2023 (ICACEC-2023) is scheduled to be held during (23-24 March’ 2023) at Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh, India.ICACEC-2023 seeks to provide an open communication platform to discuss and exchange futuristic trends and high-quality research in the field of Electronics & Communication Engineering among researchers, academicians, industrial professionals and students and also bring together people from all different geographical areas who share a common discipline or field.The primary goal of the conference is to promote research and development activities needed for the next generation and focused on all promising areas of Electronics & Communication Engineering. Several renowned experts from the Electronics & Communication Engineering will share their knowledge and experience with the participants. 
           </p>
@@ -55,7 +55,7 @@ const Homepage = () => {
 
         <div className='aboutAkg' id="aboutAkg">
           <div>
-            <h1>About AKGEC</h1>
+            <h1>ABOUT AKGEC</h1>
             <p>Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad is affiliated to Dr. A.P.J.
               Abdul Kalam Technical University, Lucknow, India and is approved by the All-India
               Council for Technical Education. The college was established in 1998 and offers B. Tech
@@ -124,7 +124,7 @@ const Homepage = () => {
         </div>
 
         <div className='committee' id="committee" style={{paddingTop:"100px"}}>
-          <h1 className="heading">COMMITTEE</h1>
+          <h1 className="heading">TECHNICAL COMMITTEE</h1>
           {/* <div> */}
           <Table responsive striped size='md' bordered>
           <tbody>

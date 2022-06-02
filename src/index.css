@@ -469,6 +469,24 @@ td{
   width: 50%;
 }
 
+.committee-head{
+  color: #797979;
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+
+.committee-content{
+  font-size: 28px;
+}
+
+.committee-table{
+  width: 70%;
+  line-height: 1.5;
+
+}
+
+
 @media only screen and (max-width:1874px){
   .imgframe>div {
     width: 250px;
@@ -496,6 +514,12 @@ td{
   .imgmain>h1{
     padding-top: 20%;
   }
+  .committee-table{
+    width: 100%;
+  }
+  .committee-content, .committee-table{
+    font-size: 24px;
+  }
 }
 
 
@@ -522,10 +546,13 @@ td{
   }
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (max-width:605.5px){
+  .committee-table,.committee-content{
+    font-size: 20px;
+  }
   .hamburger1{
     visibility: visible;
-    margin-top: -88px;
+    margin-top: -123px;
   }
   .webLinks{
     visibility:hidden;
@@ -555,11 +582,17 @@ td{
   }
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (max-width:581.5px){
+  .hamburger1{
+    margin-top: -130px;
+  }
+}
+
+/* @media only screen and (max-width:515px){
   .hamburger1{
     margin-top: -120px;
   }
-}
+} */
 
 
 @media only screen and (max-width:490px){
@@ -582,6 +615,15 @@ td{
   }
 }
 
+@media only screen and (max-width:406px){
+  .hamburger1{
+    margin-top: -168px;
+  }
+  .hamMenu1{
+    margin-top: -130px;
+  }
+}
+
 @media only screen and (max-width:386px){
   .hamburger1{
     margin-top: -165px;
@@ -598,28 +640,40 @@ td{
   }
 }
 
+@media only screen and (max-width:376px){
+  .hamburger1{
+    margin-top: -210px;
+  }
+  .hamMenu1{
+    margin-top: -175px;
+  }
+}
+
 /* @media only screen and (max-width:365px){
   .hamburger1{
     margin-top: 0px;
   }
 } */
 
-@media only screen and (max-width:363px){
+@media only screen and (max-width:363.5px){
   
   .hamburger1{
-    margin-top: -175px;
+    margin-top: -217px;
   }
   .softInc{
     font-size: 10px;
   }
-}
-
-
-@media only screen and (max-width:359.9px){
-  .hamburger1{
-    margin-top: -175px;
+  .hamMenu1{
+    margin-top: -185px;
   }
 }
+
+
+/* @media only screen and (max-width:359.9px){
+  .hamburger1{
+    margin-top: -px;
+  }
+} */
 
 
 
