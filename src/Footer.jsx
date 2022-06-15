@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from "react-scroll"
+import { HashLink as Link } from 'react-router-hash-link';
+// import {Link} from "react-scroll"
 import akglogo from "./assets/akglogo.png"
 import silogo from "./assets/silogo.png"
 
@@ -10,16 +11,17 @@ const Footer = () => {
           <img src={akglogo} alt="AKGLOGO"/>
           <h1>Ajay Kumar Garg Engineering college, Ghaziabad</h1>
           <div className="link">
-            <Link to="home" smooth={true}>Home</Link>
-            <Link to="aboutAkg" smooth={true}>About Akgec</Link>
-            <Link to="call" smooth={true}>Call for Papers</Link>
-            <Link to="committee" smooth={true}>Committee</Link>
-            <Link to="keynote" smooth={true}>Keynote Speakers</Link>
-            <Link to="paper" smooth={true}>Paper Submission</Link>
-            <Link to="" smooth={true}>Important Dates</Link>
-            <Link to="" smooth={true}>Registration Fee</Link>
-            <Link to="" smooth={true}>Best Paper Award</Link>
-            <Link to="contact" smooth={true}>Contact Us</Link>
+            <Link to="/#home" smooth={true}>Home</Link>
+            <Link to="/#aboutAkg" smooth={true}>About Akgec</Link>
+            <Link to="/#call" smooth={true}>Call for Papers</Link>
+            <Link to="/#committee" smooth={true}>Technical Committee</Link>
+            <Link to="/programme-committee" smooth={true}>Programme Committee</Link>
+            <Link to="/#keynote" smooth={true}>Keynote Speakers</Link>
+            <Link to="/#paper" smooth={true}>Paper Submission</Link>
+            <Link to="/important-dates" smooth={true}>Important Dates</Link>
+            <Link to="/registration" smooth={true}>Registration Fee</Link>
+            <Link to="/" smooth={true}>Best Paper Award</Link>
+            <Link to="/#contact" smooth={true}>Contact Us</Link>
 
           </div>
           <hr></hr>
