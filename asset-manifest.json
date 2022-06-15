@@ -1,11 +1,11 @@
 {
   "main.css": "/ece/static/css/main.5917c700.chunk.css",
-  "main.js": "/ece/static/js/main.367bdbf9.chunk.js",
-  "main.js.map": "/ece/static/js/main.367bdbf9.chunk.js.map",
+  "main.js": "/ece/static/js/main.0ac9c201.chunk.js",
+  "main.js.map": "/ece/static/js/main.0ac9c201.chunk.js.map",
   "static/js/1.cc79fa39.chunk.js": "/ece/static/js/1.cc79fa39.chunk.js",
   "static/js/1.cc79fa39.chunk.js.map": "/ece/static/js/1.cc79fa39.chunk.js.map",
-  "static/js/2.dc017afc.chunk.js": "/ece/static/js/2.dc017afc.chunk.js",
-  "static/js/2.dc017afc.chunk.js.map": "/ece/static/js/2.dc017afc.chunk.js.map",
+  "static/js/2.b173162c.chunk.js": "/ece/static/js/2.b173162c.chunk.js",
+  "static/js/2.b173162c.chunk.js.map": "/ece/static/js/2.b173162c.chunk.js.map",
   "runtime~main.js": "/ece/static/js/runtime~main.a9651cde.js",
   "runtime~main.js.map": "/ece/static/js/runtime~main.a9651cde.js.map",
   "static/media/glimpses.png": "/ece/static/media/glimpses.4bacf680.png",
@@ -20,9 +20,9 @@
   "static/media/e2.png": "/ece/static/media/e2.7720ae10.png",
   "static/media/e3.png": "/ece/static/media/e3.859e56be.png",
   "static/media/e4.png": "/ece/static/media/e4.219e8423.png",
-  "static/media/index.css": "/ece/static/media/main.45d934c7.png",
+  "static/media/index.css": "/ece/static/media/Gilroy-Regular.af5b8da1.ttf",
   "static/css/main.5917c700.chunk.css.map": "/ece/static/css/main.5917c700.chunk.css.map",
   "index.html": "/ece/index.html",
-  "precache-manifest.4548b64d9de15ce8eb8ccfa09b0cf81a.js": "/ece/precache-manifest.4548b64d9de15ce8eb8ccfa09b0cf81a.js",
+  "precache-manifest.a49a20762b67f4a5c4ae94585284142f.js": "/ece/precache-manifest.a49a20762b67f4a5c4ae94585284142f.js",
   "service-worker.js": "/ece/service-worker.js"
 }
