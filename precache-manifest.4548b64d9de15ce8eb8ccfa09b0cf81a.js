@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/ece/static/media/e4.219e8423.png"
   },
   {
-    "revision": "45d934c70831a902302b2113bb8fc42d",
-    "url": "/ece/static/media/main.45d934c7.png"
-  },
-  {
     "revision": "af5b8da12b32c5e74532c6446eb356b4",
     "url": "/ece/static/media/Gilroy-Regular.af5b8da1.ttf"
   },
   {
-    "revision": "4fbf3c9554cef521daee5d2346524b4e",
+    "revision": "45d934c70831a902302b2113bb8fc42d",
+    "url": "/ece/static/media/main.45d934c7.png"
+  },
+  {
+    "revision": "0c596aa162f2b21c634ba83cb8fdf07c",
     "url": "/ece/index.html"
   }
 ];
