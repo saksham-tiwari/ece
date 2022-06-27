@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "4a1c503a4f254f9b9c25",
-    "url": "/static/css/main.6bdc5fb8.chunk.css"
+    "revision": "874ba27a50fa12ad4b57",
+    "url": "/static/css/main.12a2f172.chunk.css"
   },
   {
-    "revision": "4a1c503a4f254f9b9c25",
-    "url": "/static/js/main.4a1c503a.chunk.js"
+    "revision": "874ba27a50fa12ad4b57",
+    "url": "/static/js/main.874ba27a.chunk.js"
   },
   {
-    "revision": "cc79fa3910fc97852656",
-    "url": "/static/js/1.cc79fa39.chunk.js"
+    "revision": "dca74a035a2640b5084a",
+    "url": "/static/js/1.dca74a03.chunk.js"
   },
   {
-    "revision": "b173162c6ecfdc553864",
-    "url": "/static/js/2.b173162c.chunk.js"
+    "revision": "58adbf2d85b02648c7b6",
+    "url": "/static/js/2.58adbf2d.chunk.js"
   },
   {
-    "revision": "0e3dc40d6ec08f44be7a",
-    "url": "/static/js/runtime~main.0e3dc40d.js"
+    "revision": "688055b876109e83e5ce",
+    "url": "/static/js/runtime~main.688055b8.js"
   },
   {
     "revision": "4bacf68044c8507d01efdc84e8d56654",
@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "/static/media/e4.219e8423.png"
   },
   {
+    "revision": "219e8423235ef1cb599a82bdcb7c940c",
+    "url": "/static/media/e5.219e8423.png"
+  },
+  {
     "revision": "af5b8da12b32c5e74532c6446eb356b4",
     "url": "/static/media/Gilroy-Regular.af5b8da1.ttf"
   },
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/main.45d934c7.png"
   },
   {
-    "revision": "6a0ba1b9f60a9c52d6e583392475447b",
+    "revision": "dadcd1f43891be4319bbacc7057fc21d",
     "url": "/index.html"
   }
 ];
