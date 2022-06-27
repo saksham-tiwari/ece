@@ -282,7 +282,7 @@ const Homepage = () => {
           <p style={{textAlign:"justify"}}>
             The authors are invited to submit the research papers of a minimum of 4 pages in format (A maximum of 6 pages including Figures, Tables, and References will be in the registration fee and additional pages will be charged separately). The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings. <br/><br/>
 
-            The papers should be submitted in 1 column of Elsevier standard format in word .doc or .pdf format only. The authors are requested not to prefix their credentials, i.e. Dr., Prof., etc. in the author's name. All manuscripts should be prepared in the Elsevier conference template. The template can be downloaded from the below link. Authors are requested to use "US letter" as the Elsevier format. Link for paper submission is: https://forms.gle/fQTLqtVkEVKAK8XZ7 
+            The papers should be submitted in 1 column of Elsevier standard format in word .doc or .pdf format only. The authors are requested not to prefix their credentials, i.e. Dr., Prof., etc. in the author's name. All manuscripts should be prepared in the Elsevier conference template. The template can be downloaded from the below link. Authors are requested to use "US letter" as the Elsevier format. Link for paper submission is: <a style={{"color":"black"}} href='https://forms.gle/fQTLqtVkEVKAK8XZ7' target={"_blank"}>https://forms.gle/fQTLqtVkEVKAK8XZ7</a>  
           </p>
         </div>
 
