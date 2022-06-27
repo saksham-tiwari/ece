@@ -13,6 +13,7 @@ import e1 from "./assets/e1.png"
 import e2 from "./assets/e2.png"
 import e3 from "./assets/e3.png"
 import e4 from "./assets/e4.png"
+import e5 from "./assets/e5.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -254,7 +255,7 @@ const Homepage = () => {
             </div>
             <div>
               <img src={e3} alt="Speaker3"/> 
-              <h2>Dr. Mrinal Kanti Biswas</h2>
+              <h2>Dr. Mrinal Kanti Mandal</h2>
               <p>
                 Associate Professor, IIT Kharagpur
               </p>
@@ -266,6 +267,13 @@ const Homepage = () => {
                 Assistant Professor, NIT Goa
               </p>
             </div>
+            <div>
+              <img src={e5} alt="Speaker5"/> 
+              <h2>Dr. Robert Brooke</h2>
+              <p>
+              Research scientist, RISE, Sweden
+              </p>
+            </div>
           </div>
         </div>
 
@@ -274,7 +282,7 @@ const Homepage = () => {
           <p style={{textAlign:"justify"}}>
             The authors are invited to submit the research papers of a minimum of 4 pages in format (A maximum of 6 pages including Figures, Tables, and References will be in the registration fee and additional pages will be charged separately). The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings. <br/><br/>
 
-            The papers should be submitted in 1 column of Elsevier standard format in word .doc or .pdf format only. The authors are requested not to prefix their credentials, i.e. Dr., Prof., etc. in the author's name. All manuscripts should be prepared in the Elsevier conference template. The template can be downloaded from the below link. Authors are requested to use "US letter" as the Elsevier format.
+            The papers should be submitted in 1 column of Elsevier standard format in word .doc or .pdf format only. The authors are requested not to prefix their credentials, i.e. Dr., Prof., etc. in the author's name. All manuscripts should be prepared in the Elsevier conference template. The template can be downloaded from the below link. Authors are requested to use "US letter" as the Elsevier format. Link for paper submission is: https://forms.gle/fQTLqtVkEVKAK8XZ7 
           </p>
         </div>
 
