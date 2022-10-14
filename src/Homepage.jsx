@@ -53,6 +53,10 @@ const Homepage = () => {
 
           </div>
         </div>
+        <div className='container text-align-center mt-4' style={{width:"100vw",textAlign:"center"}}>
+        Weblink for the previous conferences: <a href="https://www.akgec.ac.in/ece-department-activities/" target={"_blank"} style={{color:"blue"}}>Link</a>
+
+        </div>
 
         <div className='aboutAkg' id="aboutAkg">
           <div>
