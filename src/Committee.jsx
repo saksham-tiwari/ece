@@ -206,115 +206,16 @@ const Committee = () => {
         </div>
         <br/>
         <br/>
-        <h1 className='heading' style={{textAlign:"center"}}>ADVISORY & TECHNICAL /REVIEWER COMMITTEE (NATIONAL):</h1>
+        <h1 className='heading' style={{textAlign:"center"}}>ADVISORY & TECHNICAL /REVIEWER COMMITTEE (NATIONAL)</h1>
         <br/>
         <Table responsive striped size='md' bordered style={{width:"95%", marginLeft:"2.5%"}}>
           <tbody>
           {list.map((l,i)=>{
-            
-            return <td>{l}</td>
-            
+            if(i%2===0&&i!==0) return (<tr>
+            <td>{l}</td>
+            <td>{list[i+1]}</td>
+            </tr>)
           })}
-            <tr>
-              <td> Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)</td>
-              <td> Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)</td>
-            </tr>
-            <tr>
-              <td>
-              Dr.  Sandipta Roy (Staff Engineer at Western Digital Bengaluru, Karnataka, India)
-              </td>
-              <td>
-              Dr. A. K. Singh, HoD, EC, REC, Kannoj
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sangita Chakiroy (Scientist II- Institute of Microelectronics, Agency for Science Technology & Research A*Star, Singapore)
-              </td>
-              <td>
-              Dr Supratimmitra (Banasthali University)
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. N.S. Raghava (Prof. & HoD ECE, DTU, Delhi)
-              </td>
-              <td>
-              Dr. Garima Mathur (HoD, ECE, Poornima College of Engineering, Jaipur)
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Mirza Tariq Beg (Prof. ECE, Jamia Millia Islamia, New Delhi)
-              </td>
-              <td>
-              Mr. Amit Tiwari, Senior Project Manager, BEL, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Mainuddin, (Prof. ECE, Jamia Millia Islamia, New Delhi)
-              </td>
-              <td>
-              Dr. B. K. Gupta, Director, Barnett Pvt. Limited, Greater Noida
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Ajay Somkunwar (Professor ECE, MANIT, Bhopal)
-              </td>
-              <td>
-              Dr. R. L. Sharma, Prof. & BSF Communication Branch, Delhi
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr.  Roopam Gupta (Professor, UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Sanjay Giri , AGM, ALTTT Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sanjay Sharma (Professor & HoD, ECE, UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Nitin Garg, AGM, ALTTT Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Jitendra Agarwal (UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Sandeep,  ALTTT, AGM Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Piyush Shukla (UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Naresh ALTTT, AGM Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Vineet Khandelwal, JIIT, Noida
-              </td>
-              <td>
-              Dr. Asish Kumar Dhara, NIT Durgapu
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sudip Nag, IIT Kharagpur
-              </td>
-              <td>
-              Dr.  Rikmantra  Basu, NIT Delhi
-              </td>
-            </tr>
           </tbody>
         </Table>
         <Footer/>

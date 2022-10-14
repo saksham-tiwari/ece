@@ -125,7 +125,7 @@ const Homepage = () => {
         </div>
 
         <div className='committee' id="committee" style={{paddingTop:"100px"}}>
-          <h1 className="heading">ADVISORY & TECHNICAL COMMITTEE (INTERNATIONAL):</h1>
+          <h1 className="heading">ADVISORY & TECHNICAL COMMITTEE (INTERNATIONAL)</h1>
           {/* <div> */}
           <Table responsive striped size='md' bordered>
           <tbody>

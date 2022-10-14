@@ -48,7 +48,7 @@ export const list =[	"Dr.  Mrinal Kanti Mandal, IIT Kharagpur, West Bengal, Indi
     	"Dr.. Sandeep Vyas, JECRC, Jaipur, Rajasthan India.",
     	"Dr.. Jyoti Deshmukh, SISTEC-R, Bhopal, M.P, India",
     	"Dr. Manish Sawle, OIST, Bhopal, M.P, India.",
-    	"Dr.. Vineet Khandelwal., JIIT, Noida, U.P, India".       ,                                     
+    	"Dr.. Vineet Khandelwal., JIIT, Noida, U.P, India"       ,                                     
     	"Dr.. Asish Kumar Dhara, NIT Durgapur, West Bengal, India." ,
     	"Dr.. Garima Mathur, Poornima College of Engineering, Jaipur, Rajasthan India.",
     	"Dr. Diwakar Singh, BUIT, Bhopal, M.P, India. ",

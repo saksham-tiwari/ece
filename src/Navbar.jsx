@@ -36,14 +36,15 @@ const Navbar = () => {
             <Link activeClass="active" to="/#home" spy={true} smooth={true}>Home</Link>
             <Link to="/#aboutAkg" spy={true} smooth={true}>About AKGEC</Link>
             <Link to="/#call" spy={true} smooth={true}>Call for Papers</Link>
-            <Link to="/#committee" spy={true} smooth={true}>Technical Committee</Link>
+            <Link to="/#committee" spy={true} smooth={true}>Technical Committee (International)</Link>
             <Link to="/#keynote" spy={true} smooth={true}>Keynote Speakers</Link>
-            <Link to="/important-dates" spy={true} smooth={true}>Important Dates</Link>
 
             <div className="dropdown1">
               <button className="dropbtn" style={{paddingTop:"9px"}}>More <KeyboardArrowDownIcon/> </button>
               <div className="dropdown1-content">
               <Link activeClass="active" to="/#paper" spy={true} smooth={true}>Paper Submission</Link>
+              <Link to="/important-dates" spy={true} smooth={true}>Important Dates</Link>
+
               <Link to="/programme-committee" spy={true} smooth={true}>Programme Committee</Link>
 
               <Link to="/#home" spy={true} smooth={true}>Best Paper Award</Link>
