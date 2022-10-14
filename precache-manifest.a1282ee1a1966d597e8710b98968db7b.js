@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "877cd9e45fc1958099cf",
-    "url": "/static/css/main.a50adb8a.chunk.css"
+    "revision": "21605346544d7ec90bfa",
+    "url": "/static/css/main.3472dd46.chunk.css"
   },
   {
-    "revision": "877cd9e45fc1958099cf",
-    "url": "/static/js/main.877cd9e4.chunk.js"
+    "revision": "21605346544d7ec90bfa",
+    "url": "/static/js/main.21605346.chunk.js"
   },
   {
     "revision": "dca74a035a2640b5084a",
     "url": "/static/js/1.dca74a03.chunk.js"
   },
   {
-    "revision": "4802c00e3ab020463557",
-    "url": "/static/js/2.4802c00e.chunk.js"
+    "revision": "912d7a051ea5c11a43d3",
+    "url": "/static/js/2.912d7a05.chunk.js"
   },
   {
     "revision": "688055b876109e83e5ce",
@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/static/media/e4.219e8423.png"
   },
   {
-    "revision": "45d934c70831a902302b2113bb8fc42d",
-    "url": "/static/media/main.45d934c7.png"
-  },
-  {
     "revision": "af5b8da12b32c5e74532c6446eb356b4",
     "url": "/static/media/Gilroy-Regular.af5b8da1.ttf"
   },
   {
-    "revision": "5c2a70e3828a356c870427c5b257bd6e",
+    "revision": "45d934c70831a902302b2113bb8fc42d",
+    "url": "/static/media/main.45d934c7.png"
+  },
+  {
+    "revision": "f497cd52405bca7c1c83f7015e5548df",
     "url": "/index.html"
   }
 ];
