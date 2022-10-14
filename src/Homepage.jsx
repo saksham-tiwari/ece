@@ -125,108 +125,52 @@ const Homepage = () => {
         </div>
 
         <div className='committee' id="committee" style={{paddingTop:"100px"}}>
-          <h1 className="heading">TECHNICAL COMMITTEE</h1>
+          <h1 className="heading">ADVISORY & TECHNICAL COMMITTEE (INTERNATIONAL):</h1>
           {/* <div> */}
           <Table responsive striped size='md' bordered>
           <tbody>
             <tr>
-              <td> Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)</td>
-              <td> Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)</td>
+              <td> Dr.  Robert Brooke, RISE, Sweden</td>
+              <td> Dr.  Arijit Roy, Kookmin University, Seoul, South Korea.</td>
             </tr>
             <tr>
               <td>
-              Dr.  Sandipta Roy (Staff Engineer at Western Digital Bengaluru, Karnataka, India)
+              Dr.  Debashree Banerjee, Linköping University, Sweden.
               </td>
               <td>
-              Dr. A. K. Singh, HoD, EC, REC, Kannoj
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sangita Chakiroy (Scientist II- Institute of Microelectronics, Agency for Science Technology & Research A*Star, Singapore)
-              </td>
-              <td>
-              Dr Supratimmitra (Banasthali University)
+              Dr.  C. J. Reddy, Vice President Business Development-Electromagnetics, Americas, Altair | Nasdaq: ALTR
               </td>
             </tr>
             <tr>
               <td>
-              Dr. N.S. Raghava (Prof. & HoD ECE, DTU, Delhi)
+              Dr.  Qammer H. Abbasi, SMIEEE, FRET, FRSA, University of Glasgow
               </td>
               <td>
-              Dr. Garima Mathur (HoD, ECE, Poornima College of Engineering, Jaipur)
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Mirza Tariq Beg (Prof. ECE, Jamia Millia Islamia, New Delhi)
-              </td>
-              <td>
-              Mr. Amit Tiwari, Senior Project Manager, BEL, Ghaziabad
+              Dr.  Subimal Majee, RISE, Sweden.
               </td>
             </tr>
             <tr>
               <td>
-              Dr. Mainuddin, (Prof. ECE, Jamia Millia Islamia, New Delhi)
+              Prof.  Yong Mei Pan, School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China
               </td>
               <td>
-              Dr. B. K. Gupta, Director, Barnett Pvt. Limited, Greater Noida
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Ajay Somkunwar (Professor ECE, MANIT, Bhopal)
-              </td>
-              <td>
-              Dr. R. L. Sharma, Prof. & BSF Communication Branch, Delhi
+              Giovanni Toso, European Space Agency, ESA ESTEC, Keplerlaan 1, Netherlands.
               </td>
             </tr>
             <tr>
               <td>
-              Dr.  Roopam Gupta (Professor, UIT RGPV, Bhopal)
+              Dr Shamimul Qamar, Dhahran Al Janub, King Khalid University Abha Saudi Arabia.
               </td>
               <td>
-              Mr. Sanjay Giri , AGM, ALTTT Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sanjay Sharma (Professor & HoD, ECE, UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Nitin Garg, AGM, ALTTT Centre, Ghaziabad
+              Sungtek Kahng, Incheon National University, South Korea
               </td>
             </tr>
             <tr>
               <td>
-              Dr. Jitendra Agarwal (UIT RGPV, Bhopal)
+              Dr. Arnab Sinha, performance rotors pte ltd., Singapore
               </td>
               <td>
-              Mr. Sandeep,  ALTTT, AGM Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Piyush Shukla (UIT RGPV, Bhopal)
-              </td>
-              <td>
-              Mr. Naresh ALTTT, AGM Centre, Ghaziabad
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Vineet Khandelwal, JIIT, Noida
-              </td>
-              <td>
-              Dr. Asish Kumar Dhara, NIT Durgapu
-              </td>
-            </tr>
-            <tr>
-              <td>
-              Dr. Sudip Nag, IIT Kharagpur
-              </td>
-              <td>
-              Dr.  Rikmantra  Basu, NIT Delhi
+              
               </td>
             </tr>
           </tbody>

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import { Table } from 'react-bootstrap'
+import { list } from './assets/list'
 
 
 const Committee = () => {
@@ -205,10 +206,15 @@ const Committee = () => {
         </div>
         <br/>
         <br/>
-        <h1 className='heading' style={{textAlign:"center"}}>ADVISORY COMMITEE</h1>
+        <h1 className='heading' style={{textAlign:"center"}}>ADVISORY & TECHNICAL /REVIEWER COMMITTEE (NATIONAL):</h1>
         <br/>
         <Table responsive striped size='md' bordered style={{width:"95%", marginLeft:"2.5%"}}>
           <tbody>
+          {list.map((l,i)=>{
+            
+            return <td>{l}</td>
+            
+          })}
             <tr>
               <td> Dr.  Debashree Banerjee (Principal Research Engineer, Linköping University, Sweden)</td>
               <td> Dr. Sanjeev Yadav (Women’s Govt College, Ajmer)</td>
