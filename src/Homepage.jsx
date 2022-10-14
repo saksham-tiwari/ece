@@ -216,7 +216,7 @@ const Homepage = () => {
               </p>
             </div>
             <div>
-              <img src={e5} alt="Speaker5"/> 
+              <img src={e5} alt="Speaker5" style={{borderRadius:"50%"}}/> 
               <h2>Dr. Robert Brooke</h2>
               <p>
               Research scientist, RISE, Sweden
