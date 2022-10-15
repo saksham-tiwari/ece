@@ -69,4 +69,5 @@ export const list =[	"Dr.  Mrinal Kanti Mandal, IIT Kharagpur, West Bengal, Indi
         "Mr. Sanjay Giri, ALTTT Centre, Ghaziabad, U.P, India.",
     	"Dr.. Rahul kaushik., JIIT, Noida, U.P, India",    
         "Mr. Sandeep Singh, ALTTC Centre, Ghaziabad, U.P, India",
+		"Dr. Ajay Vyas, Adani Institute of Infrastructure Engineering, Ahmadabad, Gujrat-India"
     ]
